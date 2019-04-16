@@ -1,0 +1,296 @@
+ar
+    Current value (from the default) = "ar"
+      From //gn/BUILDCONFIG.gn:21
+
+cc
+    Current value (from the default) = "cc"
+      From //gn/BUILDCONFIG.gn:22
+
+cc_wrapper
+    Current value (from the default) = ""
+      From //gn/toolchain/BUILD.gn:22
+
+clang_win
+    Current value (from the default) = ""
+      From //gn/BUILDCONFIG.gn:26
+
+current_cpu
+    Current value (from the default) = ""
+      (Internally set; try `gn help current_cpu`.)
+
+current_os
+    Current value (from the default) = ""
+      (Internally set; try `gn help current_os`.)
+
+cxx
+    Current value (from the default) = "c++"
+      From //gn/BUILDCONFIG.gn:23
+
+extra_asmflags
+    Current value (from the default) = []
+      From //gn/BUILD.gn:7
+
+extra_cflags
+    Current value (from the default) = []
+      From //gn/BUILD.gn:8
+
+extra_cflags_c
+    Current value (from the default) = []
+      From //gn/BUILD.gn:9
+
+extra_cflags_cc
+    Current value (from the default) = []
+      From //gn/BUILD.gn:10
+
+extra_ldflags
+    Current value (from the default) = []
+      From //gn/BUILD.gn:11
+
+host_ar
+    Current value (from the default) = "ar"
+      From //gn/toolchain/BUILD.gn:2
+
+host_cc
+    Current value (from the default) = "cc"
+      From //gn/toolchain/BUILD.gn:3
+
+host_cpu
+    Current value (from the default) = "x64"
+      (Internally set; try `gn help host_cpu`.)
+
+host_cxx
+    Current value (from the default) = "c++"
+      From //gn/toolchain/BUILD.gn:4
+
+host_os
+    Current value (from the default) = "linux"
+      (Internally set; try `gn help host_os`.)
+
+is_component_build
+    Current value (from the default) = false
+      From //gn/BUILDCONFIG.gn:12
+
+is_debug
+    Current value = false
+      From //out/Release/args.gn:2
+    Overridden from the default = true
+      From //gn/BUILDCONFIG.gn:29
+
+is_official_build
+    Current value (from the default) = false
+      From //gn/BUILDCONFIG.gn:11
+
+malloc
+    Current value (from the default) = ""
+      From //gn/BUILD.gn:13
+
+msvc
+    Current value (from the default) = 2015
+      From //gn/BUILDCONFIG.gn:25
+
+ndk
+    Current value (from the default) = ""
+      From //gn/BUILDCONFIG.gn:13
+
+ndk_api
+    Current value (from the default) = 18
+      From //gn/BUILDCONFIG.gn:15
+
+sanitize
+    Current value (from the default) = ""
+      From //gn/BUILDCONFIG.gn:19
+
+skia_android_serial
+    Current value (from the default) = ""
+      From //BUILD.gn:40
+
+skia_compile_processors
+    Current value (from the default) = false
+      From //BUILD.gn:51
+
+skia_enable_discrete_gpu
+    Current value (from the default) = true
+      From //BUILD.gn:41
+
+skia_enable_effects
+    Current value (from the default) = true
+      From //BUILD.gn:42
+
+skia_enable_flutter_defines
+    Current value (from the default) = false
+      From //BUILD.gn:43
+
+skia_enable_gpu
+    Current value (from the default) = false
+      From //BUILD.gn:44
+
+skia_enable_pdf
+    Current value (from the default) = false
+      From //BUILD.gn:45
+
+skia_enable_spirv_validation
+    Current value (from the default) = false
+      From //BUILD.gn:46
+
+skia_enable_tools
+    Current value (from the default) = true
+      From //BUILD.gn:47
+
+skia_enable_vulkan_debug_layers
+    Current value (from the default) = false
+      From //BUILD.gn:48
+
+skia_jumper_ccache
+    Current value (from the default) = ""
+      From //BUILD.gn:56
+
+skia_jumper_clang
+    Current value (from the default) = ""
+      From //BUILD.gn:54
+
+skia_jumper_objdump
+    Current value (from the default) = ""
+      From //BUILD.gn:55
+
+skia_lex
+    Current value (from the default) = false
+      From //BUILD.gn:52
+
+skia_qt_path
+    Current value (from the default) = ""
+      From //BUILD.gn:50
+
+skia_use_angle
+    Current value (from the default) = false
+      From //BUILD.gn:23
+
+skia_use_dng_sdk
+    Current value (from the default) = true
+      From //BUILD.gn:59
+
+skia_use_egl
+    Current value (from the default) = false
+      From //BUILD.gn:24
+
+skia_use_expat
+    Current value (from the default) = true
+      From //BUILD.gn:25
+
+skia_use_fontconfig
+    Current value (from the default) = true
+      From //BUILD.gn:26
+
+skia_use_freetype
+    Current value (from the default) = true
+      From //BUILD.gn:27
+
+skia_use_gdi
+    Current value (from the default) = false
+      From //BUILD.gn:28
+
+skia_use_icu
+    Current value (from the default) = true
+      From //BUILD.gn:29
+
+skia_use_libheif
+    Current value (from the default) = false
+      From //BUILD.gn:38
+
+skia_use_libjpeg_turbo
+    Current value (from the default) = true
+      From //BUILD.gn:30
+
+skia_use_libpng
+    Current value (from the default) = true
+      From //BUILD.gn:31
+
+skia_use_libwebp
+    Current value (from the default) = true
+      From //BUILD.gn:32
+
+skia_use_lua
+    Current value (from the default) = false
+      From //BUILD.gn:33
+
+skia_use_mesa
+    Current value (from the default) = false
+      From //BUILD.gn:34
+
+skia_use_metal
+    Current value (from the default) = false
+      From //BUILD.gn:37
+
+skia_use_piex
+    Current value (from the default) = true
+      From //BUILD.gn:35
+
+skia_use_sfntly
+    Current value (from the default) = true
+      From //BUILD.gn:60
+
+skia_use_system_expat
+    Current value (from the default) = false
+      From //third_party/expat/BUILD.gn:7
+
+skia_use_system_freetype2
+    Current value (from the default) = true
+      From //third_party/freetype2/BUILD.gn:9
+
+skia_use_system_libjpeg_turbo
+    Current value (from the default) = false
+      From //third_party/libjpeg-turbo/BUILD.gn:7
+
+skia_use_system_libpng
+    Current value (from the default) = false
+      From //third_party/libpng/BUILD.gn:7
+
+skia_use_system_libwebp
+    Current value (from the default) = false
+      From //third_party/libwebp/BUILD.gn:7
+
+skia_use_system_zlib
+    Current value (from the default) = false
+      From //third_party/zlib/BUILD.gn:7
+
+skia_use_vulkan
+    Current value (from the default) = false
+      From //BUILD.gn:67
+
+skia_use_zlib
+    Current value (from the default) = true
+      From //BUILD.gn:36
+
+skia_vulkan_headers
+    Current value (from the default) = ""
+      From //BUILD.gn:71
+
+skia_vulkan_sdk
+    Current value (from the default) = ""
+      From //BUILD.gn:49
+
+target_ar
+    Current value (from the default) = "/home/zhanghaibo4/skia/skia/gn/toolchain/ToolChain/arm-2014.05/bin/arm-none-linux-gnueabi-ar"
+      From //gn/toolchain/BUILD.gn:17
+
+target_cc
+    Current value (from the default) = "/home/zhanghaibo4/skia/skia/gn/toolchain/ToolChain/arm-2014.05/bin/arm-none-linux-gnueabi-gcc"
+      From //gn/toolchain/BUILD.gn:18
+
+target_cpu
+    Current value = "arm"
+      From //out/Release/args.gn:1
+    Overridden from the default = ""
+      (Internally set; try `gn help target_cpu`.)
+
+target_cxx
+    Current value (from the default) = "/home/zhanghaibo4/skia/skia/gn/toolchain/ToolChain/arm-2014.05/bin/arm-none-linux-gnueabi-c++"
+      From //gn/toolchain/BUILD.gn:19
+
+target_os
+    Current value (from the default) = ""
+      (Internally set; try `gn help target_os`.)
+
+windk
+    Current value (from the default) = "C:/Program Files (x86)/Microsoft Visual Studio 14.0"
+      From //gn/BUILDCONFIG.gn:32
+

@@ -1,0 +1,11 @@
+prefix=/home/fulaiyin/workdir/micali_6886/framework/oss/mpl/taglib-1.11.1/cross_build
+exec_prefix=/home/fulaiyin/workdir/micali_6886/framework/oss/mpl/taglib-1.11.1/cross_build
+libdir=/home/fulaiyin/workdir/micali_6886/framework/oss/mpl/taglib-1.11.1/cross_build/lib
+includedir=/home/fulaiyin/workdir/micali_6886/framework/oss/mpl/taglib-1.11.1/cross_build/include
+
+Name: TagLib
+Description: Audio meta-data library
+Requires: 
+Version: 1.11.1
+Libs: -L${libdir} -ltag
+Cflags: -I${includedir}/taglib

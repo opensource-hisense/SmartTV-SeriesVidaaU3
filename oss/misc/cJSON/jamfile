@@ -1,0 +1,12 @@
+##+++ BJAM module configuration +++##
+include $(BUILDENV)"/common/config.jam" ;
+
+# Module Configuration
+LONGNAME = "cJSON lib" ;
+NAME = libcJSON ;
+VERSION = 0.0.0 ;
+TYPE = lib ;
+
+
+##--- BJAM module configuration ---##
+include $(BUILDENV)"/common/targets.jam" ;

@@ -1,0 +1,40 @@
+# open source projects available in the subtree
+#use-project /oss/cutest : oss/cutest/1.4/cutest ;
+use-project /oss/msinttypes : oss/bsd2/msinttypes/r26 ;
+use-project /oss/avahi-autoipd : oss/lgpl/avahi-autoipd/0.6.31 ;
+use-project /oss/daemon : oss/lgpl/libdaemon/0.14 ;
+use-project /oss/boost : oss/boost/1.54 ;
+#use-project /oss/expat : oss/mit/expat/2.0.1 ;
+#use-project /oss/freetype_stlinux : oss/freetype/freetype-2.4.2 ;
+#use-project /oss/glib : oss/lgpl/glib/2.21.6-19 ;
+use-project /oss/gphotofs : oss/gpl/gphotofs/0.5.0 ;
+use-project /oss/libcsoap : oss/lgpl/libcsoap/libcsoap-1.1.0 ;
+#use-project /oss/libgif : oss/mit/giflib ;
+use-project /oss/libgphoto2 : oss/lgpl/libgphoto2/2.5.2 ;
+#use-project /oss/libiconv : oss/lgpl/libiconv/1.9.2 ;
+use-project /oss/libltdl : oss/gpl/libltdl/2.4.2 ;
+use-project /oss/liboauth : oss/mit/liboauth/0.8.8 ;
+#use-project /oss/libpopt : oss/mit/libpopt/1.14 ;
+#use-project /oss/libxml2 : oss/mit/libxml/2.7.8 ;
+use-project /oss/ntfs-3g : oss/gpl/ntfs-3g/2013.1.13 ;
+use-project /oss/taglib : oss/mpl/taglib/1.7.0 ;
+#use-project /oss/wpa_supplicant : oss/bsd2/wpa_supplicant-2.1 ;
+use-project /oss/wpa_supplicant : oss/bsd2/wpa_supplicant-8_jb_4.2_rtw_r8680.20130821 ;
+use-project /oss/sqlite3 : oss/pd/sqlite3/3.7.17 ;
+use-project /oss/fuse : oss/gpl/fuse/2.9.3 ;
+use-project /oss/fuse-ext2 : oss/gpl/fuse-ext2/0.0.7 ;
+# use-project /oss/ext2fuse : oss/gpl/ext2fuse/0.8.1 ;
+use-project /oss/libjrtp : oss/lgpl/libjrtp/3.9.1 ;
+use-project /oss/sbc : oss/lgpl/sbc ;
+use-project /oss/rapidjson : oss/mit/rapidjson/1.0.2 ;
+
+local current = [ project.current ] ;
+if [ $(current).location ] = "." {
+    modules +=
+        /oss/avahi-autoipd
+        /oss/fuse
+        /oss/fuse-ext2
+        /oss/gphotofs
+        /oss/ntfs-3g
+        ;
+}

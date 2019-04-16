@@ -1,0 +1,17 @@
+# Copyright 2016 Google Inc.
+#
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+declare_args() {
+}
+
+config("system_fontconfig") {
+  #libs = [ "../../../../../output/hl1+hl1_hisense+master/opt/libs/libfontconfig.so" ]
+  libs = [ "../../lib/libfontconfig.so" ]
+  libs += [ "../../lib/libfontconfig.so.1" ]
+  libs += [ "../../lib/libfontconfig.so.1.8.0" ]
+}
+group("fontconfig") {
+  public_configs = [ ":system_fontconfig" ]
+}

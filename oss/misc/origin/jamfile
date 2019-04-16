@@ -1,0 +1,40 @@
+##+++ BJAM module configuration +++##
+include $(BUILDENV)"/common/config.jam" ;
+
+# 
+# C Unit Test Library 
+# 
+# ## Module settings ###
+LONGNAME = sysroot ;
+NAME = sysroot ;
+VERSION = 0.1.0 ;
+TYPE = none ;
+
+if $(BUILDENV_DEVICE_VENDOR) = mstar {
+    PUBINCDIRS =
+        include/nghttp2-1.29.0
+        include/curl-7.50.2 ;
+    PUBLIBS += [ glob lib.mstar/lib* ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/MI_project/project/develop/extra/target/lib/release_mslib/libdirect.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/MI_project/project/develop/extra/target/lib/release_mslib/libdirectfb.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/MI_project/project/develop/extra/target/lib/release_mslib/libfusion.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/optee/security/drm/widevinecenc/oem_v14/linux/arm_gnueabi_4.8.3/ca/user/lib/libwidevine_ce_cdm_shared.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/optee/security/drm/widevinecenc/oem_v14/
+linux/arm_gnueabi_4.8.3/ca/user/lib/liboemcryptoCENC_v14.so ] ;
+}
+else if $(BUILDENV_DEVICE_VENDOR) = hisi {
+    PUBLIBS += [ glob lib.hisi/lib* ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libdirect.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libdirectfb.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libfusion.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libcares.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libcurl.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libfreetype.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libpng.so ] ;
+    PUBLIBS += [ glob $(BUILDENV_PLATFORM_ROOT)/SourceCode/target/lib/share/libpng16.so ] ;
+}
+
+
+##--- BJAM module configuration ---##
+include $(BUILDENV)"/common/targets.jam" ;
+
